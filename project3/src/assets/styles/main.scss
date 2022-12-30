@@ -1,0 +1,46 @@
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p{
+  @apply text-center mx-32 mb-6
+}
+
+h1{
+  @apply text-center text-4xl mb-4
+}
+
+ul{
+  @apply text-center list-disc
+}
+
+.link{
+  @apply hover:text-blue-800
+}
+
+.bandMembers{
+ @apply flex justify-around flex-wrap mx-40
+}
+
+.member{
+  @apply m-10 w-80
+}
+
+.multimedia{
+  @apply flex items-center justify-center flex-col h-80 w-52
+}
+
+.member-pic{
+  @apply object-cover h-80 w-52
+}
+
+.pic-text{
+  @apply text-center text-sm
+}
+
+.logo{
+  @apply h-20 border-black flex items-center m-52
+}
+
